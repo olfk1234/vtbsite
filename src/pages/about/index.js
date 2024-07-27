@@ -20,7 +20,7 @@ export default function Home() {
         <Card.Title>Anando Paul</Card.Title>
         <Card.Text>
           Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+          bulk of the card content.
         </Card.Text>
       </Card.Body>
     </Card>
@@ -32,7 +32,7 @@ export default function Home() {
         <Card.Title>Ganesh Jagannath</Card.Title>
         <Card.Text>
           Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+          bulk of the card content.
         </Card.Text>
       </Card.Body>
     </Card>
@@ -44,7 +44,7 @@ export default function Home() {
         <Card.Title>Shaunak Dabir</Card.Title>
         <Card.Text>
           Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+          bulk of the card content.
         </Card.Text>
       </Card.Body>
     </Card>

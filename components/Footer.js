@@ -3,6 +3,9 @@ import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-k
 
 export default function Footer() {
   return (
+    //TODO: Change address on footer
+
+
         <MDBFooter bgColor='light' className='text-center text-lg-start text-muted'>
           <section className='d-flex justify-content-center justify-content-lg-between p-4 border-bottom'>
     
@@ -65,19 +68,19 @@ export default function Footer() {
                 <MDBCol md='3' lg='2' xl='2' className='mx-auto mb-4'>
                   <h6 className='text-uppercase fw-bold mb-4'>Useful links</h6>
                   <p>
-                    <a href='/' className='text-reset'>
+                    <Link href='/' className='text-reset'>
                       Home
-                    </a>
+                    </Link>
                   </p>
                   <p>
-                    <a href='/about' className='text-reset'>
+                    <Link href='/about' className='text-reset'>
                       Meet the Team
-                    </a>
+                    </Link>
                   </p>
                   <p>
-                    <a href='/interest' className='text-reset'>
+                    <Link href='/interest' className='text-reset'>
                       Interest Form
-                    </a>
+                    </Link>
                   </p>
                 </MDBCol>
     
@@ -104,9 +107,9 @@ export default function Footer() {
     
           <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
             © 2024 Copyright:
-            <a className='text-reset fw-bold' href='/'>
+            <Link className='text-reset fw-bold' href='/'>
               Vitatech Biometrics, LLC
-            </a>
+            </Link>
           </div>
         </MDBFooter>
 

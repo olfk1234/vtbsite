@@ -3,7 +3,6 @@ import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import NavFunc from '../../../components/NavFunc';
 import Footer from '../../../components/Footer';
-import { motion } from "framer-motion";
 
 export default function FormExport() {
   return (
@@ -33,24 +32,24 @@ export default function FormExport() {
         Submit
       </Button>
     </Form> */}
-<form action="https://usebasin.com/f/e1aaad14429a" method="POST" style = {{textAlign:"center", paddingLeft: "25%", paddingRight: "25%"}}>
- <div class="form-group">
+<form action="https://usebasin.com/f/01bda3c3467a" method="POST" style = {{textAlign:"center", paddingLeft: "25%", paddingRight: "25%"}}>
+ <div className="form-group">
     <label htmlFor="first-name" style={{marginTop:"3%"}}>First Name</label>
-    <input type="text" class="form-control" id="name" name='name'/>
+    <input type="text" className="form-control" id="name" name='name'/>
   </div>
-  <div class="form-group">
+  <div className="form-group">
     <label htmlFor="last-name" style={{marginTop:"3%"}}>Last Name</label>
-    <input type="text" class="form-control" id="last-name" name='last-name'/>
+    <input type="text" className="form-control" id="last-name" name='last-name'/>
   </div>
-  <div class="form-group">
+  <div className="form-group">
     <label htmlFor="exampleInputEmail1" style={{marginTop:"3%"}}>Email address</label>
-    <input type="email" class="form-control" id="email" name= "email" aria-describedby="email"/>
+    <input type="email" className="form-control" id="email" name= "email" aria-describedby="email"/>
   </div>
-  <div class="form-group">
+  <div className="form-group">
     <label htmlFor="comments" style={{marginTop:"3%"}}>Comments</label>
-    <textarea class="form-control" name="comments" rows="3"></textarea>
+    <textarea className="form-control" id="comments" name='comments' rows="3"></textarea>
   </div>
-  <motion.button type="submit" class="btn btn-primary" style={{marginTop:"3%"}} whileHover={{ scale: 1.2 }} onHoverStart={e => {}} onHoverEnd={e => {}}>Submit</motion.button>
+  <button type="submit" className="btn btn-primary" style={{marginTop:"3%"}}>Submit</button>
 </form>
     </Container>
     <Footer/>

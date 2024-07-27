@@ -4,6 +4,7 @@ import { Card, Container } from "react-bootstrap";
 import Carousel from 'react-bootstrap/Carousel';
 import { motion } from "framer-motion";
 import Footer from "../../components/Footer";
+import Link from "next/link";
 export default function Home() {
   return (
     <div className="html">
@@ -40,7 +41,7 @@ export default function Home() {
     <Container style ={{textAlign:"center"}}>
     <h2 style={{paddingTop: "3rem", textAlign: "center"}}>Interested?</h2>
     <p style={{marginTop: "2rem"}}>Click on the button below to enter the email list:</p>
-    <a href="/interest"><motion.button className="btn btn-primary" whileHover={{ scale: 1.2 }} onHoverStart={e => {}} onHoverEnd={e => {}}>To Interest Form</motion.button></a>
+    <Link href="/interest"><motion.button className="btn btn-primary" whileHover={{ scale: 1.2 }} onHoverStart={e => {}} onHoverEnd={e => {}}>To Interest Form</motion.button></Link>
     </Container>
     </div>
   
