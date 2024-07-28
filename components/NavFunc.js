@@ -17,6 +17,7 @@ export default function NavFunc() {
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/about">Meet The Team</Nav.Link>
             <Nav.Link href="/interest">Interest Form</Nav.Link>
+            <Nav.Link href='/api/auth/logout'>Logout</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
