@@ -22,7 +22,7 @@ export default function Home() {
   <img className="d-block w-100" src="/cowherdsmall.jpg" alt="Image One" id="image-section" style={{ maxHeight: '650px', objectFit: 'cover' }}/> 
     <Carousel.Caption>
       <h3>Animal Thermography</h3>
-      <p>See how we are using the power of AI to determine whether animals are sick.</p>
+      <p>See how we are using the power of AI to evaluate the health of large herd animals.</p>
       <motion.button className="btn btn-primary" whileHover={{ scale: 1.2 }} onHoverStart={e => {}} onHoverEnd={e => {}}>Explore More</motion.button>
     </Carousel.Caption>
   </Carousel.Item>
@@ -33,15 +33,18 @@ export default function Home() {
   <Card style={{marginTop: "3rem", marginBottom: "3rem"}}>
       <Card.Body>
         <Card.Text style={{textAlign: "center"}}>
-        We are team of biomedical engineers creating AI-powered infrared biometric devices for quick and easy health diagnostics.
+        Vitatech Biometrics is a team of highly skilled biomedical engineers creating AI-powered infrared
+        biometric devices for quick and easy health evaluation models. Founded by Texas A&M Aggies,
+        we are committed to progressing the medical and agricultural health fields by pioneering the use
+        of AI drivers for advanced diagnostic medicine.
         </Card.Text>
       </Card.Body>
     </Card>
     </Container>
     <div style={{backgroundColor:"#EEEEEE", paddingBottom: "2rem"}}>
     <Container style ={{textAlign:"center"}}>
-    <h2 style={{paddingTop: "3rem", textAlign: "center"}}>Interested?</h2>
-    <p style={{marginTop: "2rem"}}>Click on the button below to enter the email list:</p>
+    <h2 style={{paddingTop: "3rem", textAlign: "center"}}>Questions?</h2>
+    <p style={{marginTop: "2rem"}}>Click on the button below to shoot us a question:</p>
     <Link href="/interest"><motion.button className="btn btn-primary" whileHover={{ scale: 1.2 }} onHoverStart={e => {}} onHoverEnd={e => {}}>To Interest Form</motion.button></Link>
     </Container>
     </div>

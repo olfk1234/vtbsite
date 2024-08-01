@@ -16,7 +16,7 @@ export default function NavFunc() {
           <Nav className="me-auto">
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/about">Meet The Team</Nav.Link>
-            <Nav.Link href="/interest">Interest Form</Nav.Link>
+            <Nav.Link href="/interest">Questions</Nav.Link>
             <Nav.Link href='/api/auth/logout'>Logout</Nav.Link>
           </Nav>
         </Navbar.Collapse>

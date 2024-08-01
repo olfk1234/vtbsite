@@ -10,8 +10,8 @@ export default function FormExport() {
     <NavFunc/>
     <Container style = {{paddingBottom: "7.5%"}}>
     <div style = {{paddingTop: "3rem", textAlign:"center"}}>
-    <h1>Interest Form</h1>
-    <p>Sign up if you want to get updates about our latest products.</p>
+    <h1>Questions?</h1>
+    <p>Click on the button below to shoot us a question:</p>
     </div>
     {/* <Form action = {"https://usebasin.com/f/e1aaad14429a"} method = {"POST"}style = {{textAlign:"center", paddingLeft: "25%", paddingRight: "25%"}}>
     <Form.Group className="mb-3" controlId="formBasicFN">
